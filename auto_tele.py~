@@ -121,7 +121,7 @@ class dbimportHandler(tornado.web.RequestHandler):
 	       #print sqlstr
 	       reallen=len(sql)-1
                runsql=sql[0:reallen]+")"
-	       #print runsql+"<br>"
+	       print runsql+"<br>"
 	       c.execute(runsql)
 	       sql=""
 
